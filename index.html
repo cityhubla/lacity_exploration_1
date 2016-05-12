@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; 
+            font-family: lato;}
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+        #info {
+            position:absolute;
+            padding: 25px;
+            background-color: rgba(255, 255, 255, .15)
+        }
+        #R1{color:#55b975;}
+        #C2{color:#0f7cdb;}
+        #MROW{color:#e0f;}
+        @media screen and (max-width: 40em) {
+        #info{font-size: xx-small;}
+        }
+    </style>
+</head>
+<body>
+<div id='map'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiY3J1emluNzN2dyIsImEiOiJjaW80MHJvNzgwMWcwdmFrams0OHAxaWozIn0.6TXveIiYaYPFdf8QTO6Ssw';
+var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/cruzin73vw/cio3rmx9n0048akkw260x3koe', //stylesheet location
+    zoom: 10, // starting zoom
+    minZoom:10
+});
+</script>
+<div id="info">
+    <h1>lacity exploration 1</h1>
+    <h2 id="R1">R1 Zoning</h2>
+    <h2 id="C2">C2 Zoning</h2>
+    <h2 id="MROW">METRO Right of Way</h2></div>
+</body>
+</html>
