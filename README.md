@@ -1,6 +1,6 @@
 # lacity_exploration_1
 
-###This is an developing exploratory map identifying
+###This is a developing exploratory map identifying
 * R1 Zoning (Source: [LA City Planning GIS Map Gallery](http://planning.lacity.org/mapgallery/mapgallery_gisdata/mapgallerydata.htm))
 * C2 Zoning (Source: [LA City Planning GIS Map Gallery](http://planning.lacity.org/mapgallery/mapgallery_gisdata/mapgallerydata.htm))
 * Metro Right of Way (Source: [Metro GIS Data Portal](http://developer.metro.net/introduction/metro-row/row-download/))
